@@ -1,0 +1,32 @@
+{
+  "name": "interview-questions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "questions.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "check": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "start": "npx live-server", 
+    "build": "tsc scripts.ts",
+    "fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shvetsmariia/interview-questions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shvetsmariia/interview-questions/issues"
+  },
+  "homepage": "https://github.com/shvetsmariia/interview-questions#readme",
+  "devDependencies": {
+    "eslint": "^8.39.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}
